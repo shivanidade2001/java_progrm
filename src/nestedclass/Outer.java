@@ -12,6 +12,5 @@ public class Outer {
       System.out.println(s.a);
       System.out.println(s.b);
 
-        System.out.println();
     }
 }
