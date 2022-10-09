@@ -16,6 +16,7 @@ public class Practice {
         }
     }public static void main(String[] args) {
         Practice p=new Practice();
+
         System.out.println(p.a);
         p.m1();
         System.out.println(Practice.B.a);
