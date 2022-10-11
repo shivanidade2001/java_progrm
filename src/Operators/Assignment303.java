@@ -5,6 +5,7 @@ public class Assignment303 {
         int a=8;
         int b=2345+a;
         System.out.println(b);
-        System.out.println(b /3);
+        System.out.println(b /3%5*5);
+
     }
 }
