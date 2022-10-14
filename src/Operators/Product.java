@@ -1,3 +1,5 @@
+package Operators;
+
 public class Product {
     public static void main(String [] args){
         float myNum=8.2f;
