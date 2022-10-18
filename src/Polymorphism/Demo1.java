@@ -1,4 +1,4 @@
-package Polymarphism;
+package Polymorphism;
 
 public class Demo1 {
     void sendMessage(String message){

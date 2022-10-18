@@ -1,4 +1,4 @@
-package Polymarphism;
+package Polymorphism;
 
 public class B extends  A{
 //method overriding

@@ -1,4 +1,4 @@
-package Polymarphism;
+package Polymorphism;
 
 public class A {
     int add(int a, int b){
