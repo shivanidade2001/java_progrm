@@ -9,13 +9,17 @@ public class ByConsumerDemo {
         BiConsumer biConsumer1=new BiConsumer() {
             @Override
             public void accept(Object o, Object o2) {
-
             }
         };
         biConsumer.accept("o1","o2"  );
         biConsumer1.accept("o","o2");
-
+          BiConsumer lambda=(Object o, Object o2)->
+          {
+              System.out.println(("lambda expression"));
+          };
+          lambda.accept("t","b");
     }
+
 }
 class ByConsumerImpl implements BiConsumer{
 

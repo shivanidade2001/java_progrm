@@ -16,5 +16,11 @@ public class C extends B {
         B b=new C();
         System.out.println(b.a);
         System.out.println(b.b);
+        b.m1();
+    }
+
+    @Override
+    void m1() {
+     System.out.println("implement method");
     }
 }
