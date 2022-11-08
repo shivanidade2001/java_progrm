@@ -10,7 +10,6 @@ public class SummerImp implements Summer{
         Summer<Long> lam3=(n1, n2)->n1+n2;
                 System.out.println("add two long"+lam3.add(647l,859l));
     }
-
     @Override
     public Object add(Object n1, Object n2) {
         return null;
