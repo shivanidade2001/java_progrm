@@ -22,7 +22,6 @@ public class ByConsumerDemo {
 
 }
 class ByConsumerImpl implements BiConsumer{
-
     @Override
     public void accept(Object o, Object o2) {
         System.out.println("Traditional way");
