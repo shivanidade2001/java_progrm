@@ -26,7 +26,6 @@ public class GamePanel extends JPanel implements ActionListener {
     boolean running = false;
     Timer timer;
     Random random;
-
     GamePanel(){
         random=new Random();
         this.setPreferredSize(new Dimension(B_WIDTH,B_HEIGHT));
@@ -36,15 +35,12 @@ public class GamePanel extends JPanel implements ActionListener {
         startGame();
 
     }
-
     private void startGame() {
         newApple();
         running=true;
         timer = new Timer(DELAY,this);
         timer.start();
     }
-
-
     public void paintComponent(Graphics g){
         super.paintComponent(g);
         draw(g);
@@ -104,8 +100,6 @@ public class GamePanel extends JPanel implements ActionListener {
             newApple();
         }
     }
-
-
     private void checkCollection() {
         // checks if head collides with body
         for (int i=bodyParts;i>0;i--){
