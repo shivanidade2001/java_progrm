@@ -5,6 +5,8 @@ public class Student {
     int roll_no;
     long P_no;
     String address;
+
+
 }
     class stud{
     public static void main(String[]args){
